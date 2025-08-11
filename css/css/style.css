@@ -1,0 +1,34 @@
+*{
+
+}
+
+body{
+
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    transition: padding 300ms ease;
+    background-color: yellow;
+    ...
+    (other styles here)
+}
+
+section.content {
+    margin-top: 80px;
+    ...
+    (other styles here)
+}
+
+header.sticky {
+    padding: 10px 20px;
+}
+
+span{
+    color: chocolate;
+}
+
+#test_div{
+    color:green;
+}

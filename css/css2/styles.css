@@ -1,0 +1,22 @@
+/* Add a gray right border to all list items, except the last item (last-child) */
+*{
+  color: green;
+}
+
+ul{
+  background-color: aqua;
+}
+
+li {
+  display: inline;
+  border-right: 1px solid #bbb;
+  color: orange; 
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.active{
+  background-color: yellow;
+}

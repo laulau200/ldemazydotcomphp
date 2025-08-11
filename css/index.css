@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body,p,h3 {margin:0;}
+body,html {height:100%;}
+body {font-family: 'Montserrat', sans-serif;}
+
+#container {
+  position:relative;
+  margin:0 auto;
+  padding:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+
+#text {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  text-align:center;
+}
+
+#text img {
+  width:100px;
+  height:100px;
+  border-radius:100%;
+}
+
+#text p,
+#text h3,
+#text a {
+  margin:20px 0;
+}
+
+#text h3 {
+  font-size:28px;
+}
+
+#text a {
+  padding:15px 30px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+  background:rgba(255,255,255,.2);
+  border:2px solid white;
+  border-radius:6px;
+  transition:.3s ease all;
+}
+
+#text a:hover {
+  background:white;
+  color:gray;
+}
+
+#parallax {
+  z-index:-1;
+  position:fixed;
+  width:100%;
+  height:100%;
+ background:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80') center no-repeat transparent;
+  background-size:cover;
+}
+
+#content {
+  margin:0 auto;
+  padding:20px;
+  background:white;
+}
+
+#content p {
+  margin:20px 0;
+  width:98%;
+}
