@@ -1,0 +1,46 @@
+site ldemazydotcom
+
+
+exp_pro : OK
+
+formations.php : pb
+
+loisir.php : manque navbar
+
+contact.php : changer couleur police et déplacer la nabbar
+
+
+
+
+style.css : 
+li {
+  display: inline;
+  border-right: 1px solid #bbb;
+  color: orange; 
+}
+
+styles.css : 
+
+
+exp_pro.php : OK
+
+formations : OK
+
+loisir.php : OK revoir couleurs
+
+contact.php : OK revoir couleurs
+
+index.php : OK revoir couleurs et navbar
+
+----------------------------------------------------
+projet vma avec bd
+
+
+-----------------------------------------------------
+projet hémianopsie : 
+
+
+----------------------------------------------------
+projet cas kace : 
+
+--------------------------------------------------

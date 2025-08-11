@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/text_anim.css">
+    <link rel="stylesheet" href="css/titre.css">
+	
+<style>
+.h2{
+	color:green;
+}
+	
+</style>
+  </head>
+
+
+
+<body>
+    <section id="global">
+        <header>
+          <?php echo require_once("header.inc") ?>
+            
+        </header>
+
+<div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item"><a href="exp_pro.html" class="nav-link"><span>Experiences professionnelles</span></a></li>
+            <li class="nav-item"><a href="formation.html" class="nav-link"><span>Formations</span></a></li>
+            <li class="nav-item"><a href="loisirs.html" class="nav-link"><span>course à pied</span></a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link"><span>me contacter</span></a></li>
+	        </ul>
+	      </div>
+
+    <header>
+        <?php echo require_once("header.inc") ?>
+<nav class="navbar navbar-default">
+
+      <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="exp_pro.php">expériences</a>
+  <a href="formations.php">formations</a>
+  <a href="loisir.php">course à pied</a>
+  <a href="contact.php">Contact</a>
+</div>
+</nav>
+
+
+
+  <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+  <!--h2>Collapsed Sidebar</h2-->
+  <!--p>Content...</p-->
+</div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="nav navbar-nav">
+          <!--li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></!--li>
+          <li><a href="#">Link</a></li>
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu"-->
+              <!--li><a href="exp_pro.php">expériences</a></!--li>
+              <li><a href="formations.php">formations</a></li>
+              <li><a href="loisir.php">running</a></li>
+              <li><a href="contact.php">contact</a></li>
+              <li-- role="separator" class="divider"></li-->
+              <!--li><a href="#">Separated link</a></li-->
+              <li role="separator" class="divider"></li>
+              <!--li><a href="#">One more separated link</a></li-->
+            </ul>
+        </div>
+        </div>
+          </li>
+        </ul>
+</ul>
+<script>
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+    </header>
+    <section id="global">
+        <nav>
+
+        </nav>
+    <!--insertion page/ fin l215-->
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <!--nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar"-->
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Clark</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <!--span class="oi oi-menu"></!--span>--> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <!--li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></!--li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+	          <li-- class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li-->
+	        </ul>
+	      </div>
+	    </div>
+	  </!--nav>
+	  
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Un peu de sport</h1>
+            <h2 class="mb-4">Un peu de sport</h2>
+            <p>Apr&egrave;s le travail, je pratique une peu de sport pour m'ah&eacute;rer</p>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">longues distances</span>
+    					
+    					<span class="position"></span>
+    					<p class="mt-4">plusieurs participations aux <em>24 heures de Roche</em> par &eacute;quipes,<br>
+        Plusieurs tentatives en individuel(134 km en 2024), <br></p>
+    				</div>
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">100 km</span>
+    					
+    					<span class="position"></span>
+    					<p class="mt-4">Participation &agrave; cette &eacute;preuve accompagn&eacute; par les Furania Runners.</p>
+    				</div>
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">Raids</span>
+    					<br>
+    					<span class="position"></span>
+    					<p class="mt-4">2 participations &agrave; la Saint&eacute;lyon</p>
+						<p class="mt-4">1 participation &agrave; LE PUY-FIRMINY en 2024</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">Marathons</span>
+    					<br>
+    					<span class="position"></span>
+    					<p class="mt-4">16 marathons : </p>
+						<ul>
+						<li>7 fois Lyon, <br>4 fois annecy, <br>2 fois Rennes, <br>une fois Paris,<br>Montpelier<br>et Montbrison. </li>
+						</ul>
+    				</div>
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">TRAILS</span>
+    					<br>
+    					<span class="position"></span>
+    					<p class="mt-4">Plusieurs participations &agrave; <br>Courir pour des pommes, <br>au Saint&eacute; Urban Trail, <br>...</p>
+    				</div>
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">autres courses</span>
+    					<br>
+    					<span class="position"></span>
+    					<p class="mt-4">A 10 kms, <br>semi-marathons, <br>...</p>
+    				</div>
+    			</div>
+    		</div>
+    		
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">contact mail</h3>
+	            <p><a href="mailto:info@yoursite.com">laurent.demazy@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">site internet</h3>
+	            <p><a href="#">www.ldemazy.com</a></p>
+	          </div>
+          </div>
+
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+ 
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div class="img" style="background-image: url(images/about.jpg);"></div>
+          </div>
+        </div>
+    </section>
+		
+
+    <footer class="ftco-footer ftco-section">
+ <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+    <!--fin insertion-->
+
+    </section>
+
+<script>
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</body>
+</html>

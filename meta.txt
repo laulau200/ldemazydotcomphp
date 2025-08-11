@@ -1,0 +1,13 @@
+
+mettre les lignes meta avant le /header
+
+<meta name="description" content="Exemple de structure d'une page web">
+<meta name="keywords" content="HTML, CSS, Javascript, JQuery">
+<meta name="author" content="Laurent DEMAZY">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="technicien informatique, administrateur réseaux, windows, linux">
+<meta name="author" content="Laurent DEMAZY">
+<meta http-equiv="refresh" content="300">
+<meta name="color-scheme" content="dark light">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

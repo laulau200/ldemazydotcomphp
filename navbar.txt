@@ -1,0 +1,198 @@
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="nav navbar-nav">
+          <!--li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></!--li>
+          <li><a href="#">Link</a></li>
+          <div class="dropdown">
+            <!--a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></!-->
+            <ul class="dropdown-menu">
+              <li><a href="exp_pro.php">expériences</a></li>
+              <li><a href="formations.php">formations</a></li>
+              <li><a href="loisir.php">running</a></li>
+              <li><a href="contact.php">contact</a></li>
+              <li role="separator" class="divider"></li>
+              <li><!--a href="#">Separated link</!--a></li>
+              <li role="separator" class="divider"></li>
+              <!li><a href="#">One more separated link</a></li-->
+            <ul>
+        </div>
+        </div>
+
+
+        /* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+  </style>
+-----------------------------------
+autre div avt insertion page : 
+--------------
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="exp_pro.php">expériences</a>
+  <a href="formations.php">formations</a>
+  <a href="loisir.php">course à pied</a>
+  <a href="contact.php">Contact</a>
+</div>
+
+<button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+  <h2>Collapsed Sidebar</h2>
+  <p>Content...</p>
+</div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="nav navbar-nav">
+          <li class="active"><a href="#"> <span class="sr-only"></span></a></li>
+          <li><a href="#"></a></li>
+          <div class="dropdown">
+            
+            </ul>
+        </nav>
+------------------------------
+
+fichiers styles.css : 
+---------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F4;
+}
+
+button{
+    color:#ffffff;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    box-shadow: 2px 7px 96px -2px rgba(154,171,237,1);
+    -webkit-box-shadow: 2px 7px 63px -2px rgba(154,171,237,1);
+    -moz-box-shadow: 2px 7px 96px  -2px rgba(154,171,237,1);
+}
+
+button:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+button i{
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+#navbar{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    padding: 10px;
+    color: #fff;
+    background: #000;
+}
+
+#contenu{
+    margin: 10px;
+    margin-top: 60px;
+    padding: 10px;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.email-button 
+{
+display: inline-block;
+
+padding: 10px 20px;
+
+background-color: #007bff;
+
+color: #fff;
+
+text-decoration: none;
+
+border-radius: 5px;
+
+font-weight: bold;
+
+transition: background-color 0.3s ease;
+}
+
+
+.email-button:hover 
+{
+background-color: #0056b3;
+}
+---------------------------------------------
